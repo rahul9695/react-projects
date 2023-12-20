@@ -1,0 +1,8 @@
+.main-wrapper {
+    margin-top: 70px;
+    padding-block: 50px;
+    padding-inline: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}

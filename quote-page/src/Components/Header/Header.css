@@ -1,0 +1,52 @@
+.header-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding-inline: 30px;
+    position: fixed;
+    top: 0;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    z-index: 100;
+}
+
+.logo-wrapper {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.logo-wrapper h1 {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.logo-wrapper img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.links-wrapper {
+    width: max-content;
+    padding-inline: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .links-wrapper a {
+    text-decoration: none;
+    font-weight: 500;
+    padding-inline: 10px;
+    padding-block: 7px;
+    border-radius: 5px;
+  }
+  
+  .links-wrapper a:hover {
+    text-decoration: underline;
+    color: #ffc823 !important;
+    background-color: rgb(49, 49, 49);
+  }
