@@ -1,0 +1,56 @@
+[
+    {
+        "name" : "Blade Runner 2049",
+        "imgLink" : "https://rukminim2.flixcart.com/image/850/1000/jf8khow0/poster/a/u/h/small-hollywood-movie-poster-blade-runner-2049-ridley-scott-original-imaf3qvx88xenydd.jpeg?q=20",
+        "year" : "2017",
+        "director" : "David Ayer",
+        "duration" : "117 min",
+        "genres" : ["Action", "crime", "fantasy"],
+        "description" : "Set in world where fantasy creatures live side by side with humans. A human cop is forced to work with an Orc to find a weapon everyone is prepared to kill for.",
+        "bgImg" : "https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2017/10/blade-runner-2049.jpg"
+    },
+
+    {
+        "name" : "The 400 Blows",
+        "imgLink" : "https://m.media-amazon.com/images/M/MV5BNzUwYzU2YjctOGM3YS00YjdiLTk1YjctZjdmMDY4ZTE1YWZkXkEyXkFqcGdeQXVyNzYxODE3NTQ@._V1_UY209_CR8,0,140,209_AL_.jpg",
+        "year" : "1959",
+        "director" : "François Truffaut",
+        "duration" : "99 min",
+        "genres" : ["Crime", "Drama"],
+        "description" : "A young boy, left without attention, delves into a life of petty crime.",
+        "bgImg" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW7P2kHCUp65CgB8V1_TBrFvsfKp5Xyy18Ng&usqp=CAU"
+    },
+
+    {
+        "name" : "The Godfather",
+        "imgLink" : "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY209_CR3,0,140,209_AL_.jpg",
+        "year" : "1972",
+        "director" : "Francis Ford Coppola",
+        "duration" : "175 min",
+        "genres" : ["Crime", "Drama"],
+        "description" : "Don Vito Corleone, head of a mafia family, decides to hand over his empire to his youngest son Michael. However, his decision unintentionally puts the lives of his loved ones in grave danger.",
+        "bgImg" : "https://cmon-files.s3.amazonaws.com/images/news/image_large/187/Game-vs-Movie-Hero_2.jpg" 
+    },
+
+    {
+        "name" : "The Shawshank Redemption",
+        "imgLink" : "https://m.media-amazon.com/images/M/MV5BNDE3ODcxYzMtY2YzZC00NmNlLWJiNDMtZDViZWM2MzIxZDYwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_UX140_CR0,0,140,209_AL_.jpg",
+        "year" : "1994",
+        "director" : "Frank Darabont",
+        "duration" : "142 min",
+        "genres" : ["Drama"],
+        "description" : "Over the course of several years, two convicts form a friendship, seeking consolation and, eventually, redemption through basic compassion.",
+        "bgImg" : "https://rukminim2.flixcart.com/image/850/1000/k77xx8w0/poster/n/k/b/medium-the-shawshank-redemption-movie-poster-for-room-with-gloss-original-imafphntcvr9fuap.jpeg?q=20"
+    },
+
+    {
+        "name" : "The Dark Knight ",
+        "imgLink" : "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_UY209_CR0,0,140,209_AL_.jpg",
+        "year" : "2008",
+        "director" : "Christopher Nolan",
+        "duration" : "152 min",
+        "genres" : ["Action", "Crime", "Drama"],
+        "description" : "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+        "bgImg" : "https://www.wallpaperup.com/uploads/wallpapers/2014/03/14/297481/f489e5b663f5c16f76a7bdb8cac8bb17.jpg" 
+    }
+]
