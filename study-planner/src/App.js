@@ -34,7 +34,6 @@ function App() {
 
   const deletePlanner = (index) => {
     const answer = window.confirm("Are you sure you want to delete planner?");
-    console.log(answer);
     if (answer) {
       const updatedPlanner = [...planner];
       updatedPlanner.splice(index, 1);
@@ -77,7 +76,6 @@ function App() {
 
   return (
     <div className="App">
-      {console.log(subject, hour)}
       <div className="main_wrapper">
         <h1>Study Planner</h1>
         <form className="input-form">
