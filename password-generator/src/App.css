@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  max-width: 800px;
+  margin-inline: auto;
+  padding: 10px;
+}
+
+.App h1 {
+  text-align: center;
+}
+
+.password_container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.password_container input {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.password_container button {
+  padding: 12px;
+  height: 100%;
+  cursor: pointer;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.password_container button:hover, .password_container button i:hover {
+  background-color: rgb(59, 121, 255);
+  color: white;
+}
+
+.input_container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.input_container input {
+  padding: 10px;
+  width: 100px;
+  outline-color: lightgray;
+}
+
+.char_limit {
+  font-weight: bold;
+}
+
+.checkBox_container {
+  margin-top: 20px;
+}
+
+.checkBox_container input {
+  margin-right: 5px;
+}
+
+.checkBox_container button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  background-color: rgb(62, 172, 250);
+  color: white;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+
+.checkBox_container button:hover {
+  background-color: rgb(23, 144, 236);
+  color: white;
+}
