@@ -9,16 +9,14 @@ const Center = () => {
   const [restaurantData, setRestaurantData] = useState([...restaurantList]);
 
   function onChangeHandler(e, setterFn) {
-    // console.log(searchValue, ratingValue);
     setterFn(e.target.value);
-    // listUpdate();
   }
 
   useEffect(()=>{
     const filteredArray = restaurantList.filter((restaurantObject) => {
       return restaurantObject.name.toLowerCase().includes(searchValue.toLowerCase()) && restaurantObject.rating >= ratingValue;
     });
-    console.log(filteredArray);
+    // console.log(filteredArray);
     setRestaurantData(filteredArray);
   },[searchValue, ratingValue]);
 
