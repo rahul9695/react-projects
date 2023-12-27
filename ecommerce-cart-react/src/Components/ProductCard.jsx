@@ -30,7 +30,7 @@ const ProductCard = (props) => {
         <div className="product_card_text">
           <h5>{props.productObj.title}</h5>
           <p>${props.productObj.price}</p>
-          <button>remove</button>
+          <button onClick={()=>props.removeCard(props.productObj.id, quantity)}>remove</button>
         </div>
       </div>
       <div className="right_container_counter">

@@ -1,0 +1,45 @@
+.center_wrapper {
+    margin-top: 70px;
+    padding-block: 50px;
+    padding-inline: 5px;
+    max-width: 1230px;
+    margin-inline: auto;
+
+}
+
+.input_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+#search_input {
+    padding: 10px;
+    font-size: 1rem;
+    outline-color:lightgray;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+#rating_input {
+    width: 70px;
+    padding: 10px;
+    font-size: 1rem;
+    outline-color:lightgray;
+    border: 1px solid lightgray;
+    border-radius: 5px; 
+}
+
+.input_wrapper label {
+    font-size: 1.05rem;
+}
+
+.restro_cards_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.restaurant_length {
+    font-size: 1.2rem;
+    margin-left: 10px;
+    font-weight: 500;
+}
