@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  gap: 20px;
+  width: max-content;
+  margin-inline: auto;
+}
+
+.App h1 {
+  color: white;
+  margin-bottom: 10px;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.progressbar {
+  height: 30px;
+  width: 600px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  background-color: rgb(217, 217, 217);
+  font-weight: 500;
+}
+
+.progressPercent {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btnContainer {
+  width: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 20px;
+}
+
+.btnContainer button {
+  padding: 10px;
+  width: 100px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  transition: box-shadow 0.5s;
+  cursor: pointer;
+  font-size: 1rem;
+  background-color: lightgrey;
+}
+
+.btnContainer button:hover {
+  -webkit-box-shadow: inset 50px 0 0 0 #dac400;
+  box-shadow: inset 100px 0 0 0 #dac400;
+  font-weight: bold;
+}
+
+.progressTube {
+  height: 100%;
+  background-color: #dac400;
+  transition: width 0.5s;
+}
+
+.barStatus {
+  font-size: 1.1rem;
+  color: rgb(255, 255, 255);
+}
