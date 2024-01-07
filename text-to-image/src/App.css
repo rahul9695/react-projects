@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    max-width: 550px;
+    margin-inline: auto;
+    text-align: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.heading {
+    color: rgb(255, 213, 0);
+}
+
+.textArea {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    max-width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    margin-top: 20px;
+    outline-color: darkgray;
+}
+
+.generateButton {
+    width: 100%;
+    margin-block: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+    cursor: pointer;
+    background-color: #43AA8B;
+    font-size: 1rem;
+    color: white;
+}
+
+.generateButton:hover {
+    background-color: #566E3D;
+}
+
+.imageContainer {
+    border-radius: 10px;
+    overflow: hidden;
+    width: max-content;
+    max-width: 100%;
+    margin-inline: auto;
+}
+
+p {
+    color: white;
+    font-size: 1rem;
+}
