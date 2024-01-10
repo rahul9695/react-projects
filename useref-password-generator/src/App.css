@@ -5,8 +5,37 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
   margin: 0;
+  background: url(./assets/circuit.png), rgba(0, 0, 0, 1);
+  width: 100%;
+}
+
+.App {
+  background-color: #ffdee9;
+  background-image: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%);
+  padding: 2rem;
+  border-radius: 20px;
+  height: 400px;
+  width: 625px;
+}
+
+.appContainer {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebarImg {
+  width: 250px;
+  height: 250px;
+  padding-right: 50px;
+}
+
+.sidebarImg img {
+  width: 100%;
+  height: 100%;
 }
 
 .container {
@@ -30,7 +59,11 @@ textarea {
 }
 
 button {
-  background-color: #4caf50;
+  /* background-color: #21d4fd; */
+  background: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all .5s ease-out;
   color: white;
   border: none;
   padding: 10px 15px;
@@ -40,19 +73,35 @@ button {
   font-size: 14px;
   cursor: pointer;
   border-radius: 4px;
+  /* transition: 0.3s ease-in-out; */
 }
 
 button:hover {
-  background-color: #45a049;
+  background-position: left bottom;
 }
 
 textarea {
   width: 100%;
+  max-width: 250px;
   height: 70px;
   resize: none;
+  outline-color: lightgray;
+  border-color: lightgray;
 }
 
 /* Checkbox styles */
 input[type="checkbox"] {
   margin-right: 5px;
+}
+
+input[type="number"] {
+  width: 100px;
+  margin-left: 10px;
+  padding: 5px;
+}
+
+.byDefault {
+  font-size: 0.6rem;
+  margin-top: -5px;
+  color: gray;
 }
