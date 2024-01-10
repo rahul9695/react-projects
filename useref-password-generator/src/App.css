@@ -27,6 +27,11 @@ body {
   align-items: center;
 }
 
+.appContainer h1 {
+  color: rgb(255, 119, 0);
+  font-size: 1.7rem;
+}
+
 .sidebarImg {
   width: 250px;
   height: 250px;

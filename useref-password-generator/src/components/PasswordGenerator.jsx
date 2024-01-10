@@ -45,6 +45,7 @@ const PasswordGenerator = () => {
   return (
     <div className="appContainer">
       <div>
+        <h1>Password Generator</h1>
         <label>
           Password Length:
           <input
