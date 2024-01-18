@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App h1 {
+  text-align: center;
+  padding-block: 1rem;
+  background-color: lightblue;
+  font-size: 1.5rem;
+}
+
+.topBtnContainer {
+  padding-block: 1rem;
+}
+
+.topBtnContainer button {
+  width: 150px;
+  padding-block: 0.5rem;
+  background-color: lightblue;
+  border: 1px solid blue;
+  cursor: pointer;
+  transition: .3s ease-in-out;
+}
+
+.topBtnContainer button:first-of-type {
+  margin-left: 5%;
+  margin-right: 10%;
+}
+
+.topBtnContainer button:hover {
+  background-color: rgb(31, 164, 208);
+  color: white;
+  transform: scale(1.05);
+  border-radius: 10px;
+}
+
+.centerWrapper {
+  margin-inline: 5%;
+  border: 1px solid blue;
+  min-height: 450px;
+  position: relative;
+}
+
+.centerTable {
+  width: 95%;
+  margin-inline: auto;
+  margin-top: 2rem;
+}
+
+.centerTable thead tr{
+  background-color: lightblue;
+}
+
+.centerTable tr th {
+  padding-block: 0.5rem;
+}
+
+.centerTable, .centerTable tr, .centerTable tr td, .centerTable tr th {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+.centerTable tr td{
+  padding-block: 0.5rem;
+  padding-inline: 0.3rem;
+  text-align: center;
+}
+
+.centerTable tr button {
+  width: 100%;
+  margin-inline: auto;
+  text-align: center;
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+.centerTable tr button:hover {
+  color: green;
+}
+
+.centerTopLabel {
+  width: 250px;
+  padding-block: 0.8rem;
+  text-align: center;
+  border-right: 1px solid blue;
+  border-bottom: 1px solid blue;
+}
+
+.centerAddBtn {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  width: 150px;
+  padding-block: 0.5rem;
+  cursor: pointer;
+  border: none;
+  background-color: lightblue;
+  margin-top: 0.5rem;
+  transition: .3s ease-in-out;
+}
+
+.centerAddBtn:hover {
+  background-color: rgb(31, 164, 208);
+  color: white;
+  transform: scale(1.05);
+  border-radius: 10px;
+}
+
+.addUserWrapper {
+  background-color: lightblue;
+  width: 95%;
+  margin-inline: auto;
+  margin-top: 0.4rem;
+  padding: .4rem;
+}
+
+.addUserWrapper p {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.addUserInputs {
+  width: 95%;
+  display: flex;
+  margin-inline: auto;
+  margin-top: 0.3rem;
+}
+
+.addUserInputs input {
+  flex-grow: 1;
+  padding: 0.3rem;
+}
+
+.submitBtn {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.submitBtn:hover {
+  background-color: rgb(31, 164, 208);;
+  color: white;
+}
+
+.retireveInfoTab {
+  min-height: 300px;
+  width: 95%;
+  margin-inline: auto;
+  margin-top: 2rem;
+}
+
+.retireveInfoTab input[type="number"] {
+  padding: 0.5rem;
+  width: 22rem;
+  outline-color: lightblue;
+}
+
+.retireveInfoTab input[type="submit"] {
+  margin-left: 1rem;
+  padding: 0.5rem;
+  width: 8rem;
+  cursor: pointer;
+  background-color: lightblue;
+  transition: .3s ease-in-out;
+}
+
+.retireveInfoTab input[type="submit"]:hover {
+  background-color: rgb(4, 143, 202);
+  color: white;
+  border-radius: 10px;
+}
+
+.userDataContainer {
+  margin-top: 2rem;
+  /* background-color: blueviolet; */
+  display: flex;
+}
+
+.userDataCard {
+  background-color: rgb(0, 83, 118);
+  color: white;
+  border-radius: 20px;
+  margin-top: 10px;
+  padding: 1rem;
+  margin-inline: 1rem;
+}
+
+.retrieveData {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
