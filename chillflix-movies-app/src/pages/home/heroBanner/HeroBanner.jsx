@@ -22,7 +22,8 @@ const HeroBanner = () => {
   }, [data]);
 
   const searchQueryHandler = (e) => {
-    if (e.key === "Enter" && query.length > 0) {
+    console.log();
+    if ((e.key === "Enter" || e.target.id === "searchButton") && query.length > 0) {
       navigate(`/search/${query}`);
     }
   };
@@ -36,7 +37,7 @@ const HeroBanner = () => {
       <div className="opacity-layer"></div>
       <ContentWrapper>
         <div className="heroBannerContent">
-          <span className="title">Welcome. </span>
+          <span className="title">Welcome</span>
           <span className="subTitle">
             Millions of movies, TV shows and people to discover. Explore now.
           </span>
@@ -47,7 +48,7 @@ const HeroBanner = () => {
               onChange={(e) => setQuery(e.target.value)}
               onKeyUp={searchQueryHandler}
             />
-            <button>Search</button>
+            <button id="searchButton" onClick={searchQueryHandler}>Search</button>
           </div>
         </div>
       </ContentWrapper>
